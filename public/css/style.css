@@ -1,0 +1,235 @@
+.login_body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(../img/top1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-area {
+    margin-top: 100px;
+    color: white;
+}
+
+.title-area h1 {
+    font-size: 45px;
+    line-height: 10px;
+}
+
+.title-area p {
+    font-size: 25px;
+}
+
+.input-area {
+    width: 600px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(247, 241, 241);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+form .submit {
+    height: 50px;
+    background: rgb(28, 109, 249);
+    opacity: 0.8;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background: rgb(73, 140, 255);
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.task_add {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-bottom: 1px solid #aaa;
+    color: #555;
+    width: 100%;
+}
+
+th {
+    border-top: 1px solid #aaa;
+    background-color: #f5f5f5;
+    padding: 10px 0 10px 6px;
+    text-align: center;
+}
+
+.td1 {
+    border-top: 1px solid #aaa;
+    padding: 10px 0 10px 6px;
+    text-align: center;
+}
+
+.td2 {
+    border-top: 1px solid #aaa;
+    padding: 10px 0 10px 6px;
+    display: flex;
+    text-align: center;
+}
+
+a {
+    margin-right: 20px;
+}
+
+.error {
+    text-align: center;
+}
+
+.error_message {
+    color: red;
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-group {
+    padding-bottom: 50px;
+}
+
+span {
+    color: red;
+}
+
+input {
+    width: 60%;
+    height: 30px;
+}
+
+textarea {
+    width: 60%;
+}
+
+.search-form-005 {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.search-form-005 input {
+    width: 250px;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    box-sizing: border-box;
+    background-color: #e6edf3;
+    font-size: 1em;
+    outline: none;
+}
+
+.search-form-005 input::placeholder {
+    color: #767d83;
+}
+
+.search-form-005 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 45px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background-color: #2589d0;
+    cursor: pointer;
+}
+
+.search-form-005 button::after {
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%20%3Cpath%20d%3D%22M23.7%2020.8%2019%2016.1c-.2-.2-.5-.3-.8-.3h-.8c1.3-1.7%202-3.7%202-6C19.5%204.4%2015.1%200%209.7%200S0%204.4%200%209.7s4.4%209.7%209.7%209.7c2.3%200%204.3-.8%206-2v.8c0%20.3.1.6.3.8l4.7%204.7c.4.4%201.2.4%201.6%200l1.3-1.3c.5-.5.5-1.2.1-1.6zm-14-5.1c-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206-2.6%206-6%206z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.btn {
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none !important;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.icon {
+    flex-shrink: 0;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 8px;
+    padding: 0 15px;
+    height: 45px;
+    width: auto;
+    float: none;
+    font-size: 14px;
+    color: #313131;
+    background-color: #f5c627;
+}
+
+.submit-icon {
+    width: 45px;
+    padding: 0;
+    font-size: 24px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+    border-top: 5px solid #008b8b;
+}
+
+.header_inner {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
